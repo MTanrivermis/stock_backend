@@ -63,7 +63,7 @@ app.use(express.json())
 */
 
 // app.use(require('cors')()) // Run with defaults.
-app.use(require('cors'))
+app.use(require('cors')())
 // ({
 //     origin: ["http://localhost:3000", "http://localhost:4173", "http://localhost:5173"]
 // })
